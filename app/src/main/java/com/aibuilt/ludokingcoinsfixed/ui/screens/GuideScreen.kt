@@ -3,6 +3,7 @@ package com.aibuilt.ludokingcoinsfixed.ui.screens
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.MaterialTheme
@@ -27,7 +28,7 @@ private val steps = listOf(
         title = "2 · Patch the library",
         body = "Only lib/arm64-v8a/libil2cpp.so is written. RVAs are turned into file offsets through the " +
             "PT_LOAD program headers, so the ELF stays valid.",
-        commands = "python3 patch_apk.py stock-base.apk ${PatchSpec.OUTPUT_NAME}"
+        commands = "python3 patch_apk.py stock-base.apk ${PatchSpec.OUTPUT_NAME}
     ),
     Step(
         title = "3 · Align",
