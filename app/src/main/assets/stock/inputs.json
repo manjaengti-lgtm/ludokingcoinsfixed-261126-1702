@@ -1,0 +1,50 @@
+{
+  "package": "com.ludo.king",
+  "versionName": "10.5.0.406",
+  "versionCode": 10500406,
+  "expected_entries": 2131,
+  "note": "Merge order is authoritative. sha256 is empty until pinned: run `bash app/src/main/assets/fetch_stock.sh --pin` once to fill it in, then commit. Optional asset packs may be listed in optional_inputs; they only ever add entries.",
+  "inputs": [
+    {
+      "name": "base.apk",
+      "sha256": "",
+      "urls": [
+        "https://github.com/aibuilt/ludoking-coins-fixed/releases/download/stock-10.5.0.406/base.apk",
+        "https://d.apkpure.com/b/APK/com.ludo.king?version=latest"
+      ]
+    },
+    {
+      "name": "split_config.arm64_v8a.apk",
+      "sha256": "",
+      "urls": [
+        "https://github.com/aibuilt/ludoking-coins-fixed/releases/download/stock-10.5.0.406/split_config.arm64_v8a.apk"
+      ]
+    },
+    {
+      "name": "split_config.xxhdpi.apk",
+      "sha256": "",
+      "urls": [
+        "https://github.com/aibuilt/ludoking-coins-fixed/releases/download/stock-10.5.0.406/split_config.xxhdpi.apk"
+      ]
+    },
+    {
+      "name": "split_config.en.apk",
+      "sha256": "",
+      "urls": [
+        "https://github.com/aibuilt/ludoking-coins-fixed/releases/download/stock-10.5.0.406/split_config.en.apk"
+      ]
+    }
+  ],
+  "optional_inputs": [
+    {
+      "name": "split_UnityDataAssetPack.apk",
+      "sha256": "",
+      "urls": []
+    },
+    {
+      "name": "split_AddressablesAssetPack.apk",
+      "sha256": "",
+      "urls": []
+    }
+  ]
+}
